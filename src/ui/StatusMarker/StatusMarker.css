@@ -1,0 +1,19 @@
+.regular{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #3e4e36;
+    background-color: #02f800;
+}
+.hight{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #700000;
+    background-color: #b90000;
+}
+.medium{
+    font-weight: 600;
+    color: #363f4e;
+    margin-left: 25px;
+}

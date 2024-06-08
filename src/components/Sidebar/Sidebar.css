@@ -1,0 +1,14 @@
+#sidebar{
+    background-color: #363f4e;
+    width: 400px;
+    min-height: 100vh;
+    height: 100%;
+    position: sticky;
+}
+#logo{
+    position: relative;
+    width: 60%;
+    top: -80px;
+    left: 50%;
+    transform: translate(-50%, 20px);
+}

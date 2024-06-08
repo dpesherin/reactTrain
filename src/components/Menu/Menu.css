@@ -1,0 +1,16 @@
+#menu{
+    position: relative;
+    margin-left: 40px;
+}
+.menu-item{
+    margin-top: 20px;
+}
+.link{
+    text-decoration: none;
+    color: #ffe5e5;
+    font-weight: bold;
+    font-size: 20px;
+}
+.link:hover{
+    text-decoration: underline;
+}

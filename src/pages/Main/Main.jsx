@@ -1,6 +1,6 @@
 import React from 'react';
-import ChartBox from "../components/ChartBox/ChartBox";
-import Row from "../ui/Row/Row";
+import ChartBox from "../../components/ChartBox/ChartBox";
+import Row from "../../ui/Row/Row";
 
 function Main(props) {
 
@@ -19,11 +19,11 @@ function Main(props) {
         series: [
             {
                 name: 'Процессор',
-                data: [1, 1, 5, 25, 80, 10, 4, 6, 1,19, 25, 4]
+                data: [9, 12, 24, 25, 6, 8, 10, 15, 3, 2, 5, 4]
             },
             {
                 name: 'Оперативная память',
-                data: [10, 10, 5, 10, 8, 10, 4, 6, 10, 15, 12, 78],
+                data: [34, 40, 31, 29, 50, 28, 31, 21, 21, 20, 19, 27],
                 color: "yellow",
                 background:  "yellow"
             }
@@ -34,11 +34,11 @@ function Main(props) {
     return (
         <div className="container">
             <Row>
-                <ChartBox title="Дисковое пространство" type="donut" width="400" options={{labels: ["Занято", "Свободно"]}} series={[60, 40]} widthContainer={"50%"}/>
-                <ChartBox title="Оперативная память" type="donut" width="400" options={{labels: ["Занято", "Свободно"]}} series={[20, 80]} widthContainer={"50%"}/>
+                <ChartBox title="Дисковое пространство" type="donut" width="400" options={{labels: ["Занято", "Свободно"]}} series={[63, 37]} widthContainer={"50%"}/>
+                <ChartBox title="Оперативная память" type="donut" width="400" options={{labels: ["Занято", "Свободно"]}} series={[5, 95]} widthContainer={"50%"}/>
             </Row>
             <Row>
-                <ChartBox title="Нагрузка" type="area" width="1050" options={options} series={options.series} widthContainer={"100%"} height="250"/>
+                <ChartBox title="График нагрузки" type="area" width="1050" options={options} series={options.series} widthContainer={"100%"} height="250"/>
             </Row>
         </div>
     );

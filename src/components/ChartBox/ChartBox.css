@@ -1,0 +1,11 @@
+.chartbox{
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 20px  #363f4e;
+}
+.titlechartbox{
+    margin-bottom: 10px;
+    text-align:  center;
+    font-size: 30px;
+    font-weight: bold;
+}

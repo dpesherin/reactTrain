@@ -1,12 +1,12 @@
 import React from 'react';
 import "./Row.css"
 
-function Row(props) {
+function RowStart(props) {
     return (
-        <div className="row">
+        <div className="row-start">
             {props.children}
         </div>
     );
 }
 
-export default Row;
+export default RowStart;
