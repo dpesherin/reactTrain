@@ -1,0 +1,15 @@
+.avatar-place{
+    width: 300px;
+    height: 300px;
+}
+.avatar{
+    width:  300px;
+    height:  300px;
+    border-radius: 50%;
+}
+.info-place{
+    width:  700px;
+}
+h3{
+    color: #535765;
+}
