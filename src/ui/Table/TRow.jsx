@@ -2,15 +2,13 @@ import React from 'react'
 import "./Table.css"
 
 function TRow(props) {
-    console.log(Array.from(props.row))
-
-    const row = Object.keys(props.row).map((key, ki)=>{
+    const row = Object.keys(props.row).map((keyval, ki)=>{
         return(
-            <td className="trow" data-key={key}>{props.row[key]}</td>
+            <td className="trow" key={ki}> {props.row[keyval]}</td>
         )
     })
     return (
-        <tr>
+        <tr key={props.keyindex}>
             {row}
         </tr>
     );

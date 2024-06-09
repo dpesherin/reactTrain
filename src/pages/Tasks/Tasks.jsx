@@ -8,7 +8,7 @@ function Tasks(props) {
     return (
         <div className="wrapper">
             <TasksFilter />
-            <TasksList/>
+            <TasksList pagination={true}/>
         </div>
     );
 }

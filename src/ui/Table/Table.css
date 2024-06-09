@@ -16,3 +16,7 @@ th{
     color: #fff;
     text-wrap: normal;
 }
+.table-wrapper{
+    position: relative;
+    width:  100%;
+}

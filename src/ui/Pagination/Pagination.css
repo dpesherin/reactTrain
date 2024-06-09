@@ -1,0 +1,20 @@
+.pagination-area{
+    position: relative;
+    width: 80%;
+    padding: 0px 20px;
+}
+.pagination-limit-area{
+    position: relative;
+    width:  20%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px;
+}
+.pagination-container{
+    position: relative;
+    margin: 20px 0px;
+}
+.pagination-button{
+    position: relative;
+    margin: 0 5px;
+}
