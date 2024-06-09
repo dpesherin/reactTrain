@@ -1,0 +1,23 @@
+:root {
+    --wht: #fff;
+    --main-btn-bg: #1b75d0;
+    --main-btn-hover: #165898;
+    --p-color-base: #757575;
+    --label-color: #757757;
+    --input-border: 1px solid #ccc;
+    --input-text: #626369;
+    --box-shadow: 0 0 20px  var(--dark);
+    --bottom-shadow: 0 3px 5px #808080A4;
+    --blk: #000;
+    --red: #b90000;
+    --menu-link-color: #ffe5e5;
+    --dark: #363f4e;
+    --bb: 2px solid #ddd;
+    --clikable-color: #1b75d0;
+    --h3-color: #535765;
+    --r-marker-color: #02f800;
+    --r-marker-border: 1px solid #3e4e36;
+    --h-marker-border: 1px solid #700000;
+    --light-shadow: 1px 1px 3px #ccc;
+    --almost-blk: #1e2129;
+}

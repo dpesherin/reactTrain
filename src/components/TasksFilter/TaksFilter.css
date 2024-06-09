@@ -1,6 +1,6 @@
 .tf-wrapper{
     width: 100%;
     padding: 10px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: var(--bb);
     margin-bottom: 20px;
 }

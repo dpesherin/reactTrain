@@ -5,15 +5,15 @@ table{
 td{
     padding: 10px;
     text-align: center;
-    box-shadow: 1px 1px 3px #ccc;
+    box-shadow: var(--light-shadow);
     text-wrap: normal;
 }
 th{
     padding: 10px;
     text-align: center;
-    box-shadow: 1px 1px 3px #ccc;
-    background-color: #1e2129;
-    color: #fff;
+    box-shadow: var(--light-shadow);
+    background-color: var(--almost-blk);
+    color: var(--wht);
     text-wrap: normal;
 }
 .table-wrapper{

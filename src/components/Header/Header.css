@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 15px;
-    background-color: #fff;
-    box-shadow: 0 3px 5px #808080A4;
+    background-color: var(--wht);
+    box-shadow: var(--bottom-shadow);
     width: 1200px;
     position: fixed;
     top: 0;
@@ -36,7 +36,7 @@
     flex-direction: row;
     align-items: center;
     border-radius: 7px;
-    border: 2px solid rgba(54, 63, 78, 0.32);
+    border: var(--input-border);
     padding: 0 15px;
 }
 #search{
@@ -71,7 +71,7 @@
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
-    color: #000;
+    color: var(--blk);
 }
 .user-notify{
     cursor: pointer;
@@ -103,8 +103,8 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #930000FF;
-    color: #fff;
+    background-color: var(--red);
+    color: var(--wht);
     font-size: 10px;
     font-weight: 600;
     text-align: center;

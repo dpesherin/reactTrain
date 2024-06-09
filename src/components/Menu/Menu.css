@@ -7,7 +7,7 @@
 }
 .link{
     text-decoration: none;
-    color: #ffe5e5;
+    color: var(--menu-link-color);
     font-weight: bold;
     font-size: 20px;
 }

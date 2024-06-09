@@ -1,5 +1,5 @@
 .task-item{
     font-weight: 600;
-    color: #1b75d0;
+    color: var(--clikable-color);
     text-decoration: none;
 }

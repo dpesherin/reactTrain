@@ -1,5 +1,5 @@
 .UserInfo{
-    box-shadow: 0px 1px 2px  #cccccc;
+    box-shadow: var(--light-shadow);
     margin-bottom: 60px;
 }
 

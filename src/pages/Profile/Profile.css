@@ -11,5 +11,5 @@
     width:  700px;
 }
 h3{
-    color: #535765;
+    color: var(--h3-color);
 }

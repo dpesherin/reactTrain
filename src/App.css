@@ -1,3 +1,5 @@
+@import "vars.css";
+
 .App {
     position: relative;
     width: 1600px;
@@ -13,16 +15,16 @@
 }
 .btn-main{
     padding: 10px 15px;
-    background-color: #1b75d0;
+    background-color: var(--main-btn-bg);
     border: none;
     font-weight: 600;
-    color: #fff;
+    color: var(--wht);
     border-radius: 7px;
     font-size: 16px;
     cursor: pointer;
 }
 .btn-main:hover{
-    background-color: #165898;
+    background-color: var(--main-btn-hover);
     transition: ease-in .8s;
 }
 .btn-wrapper{
@@ -44,7 +46,7 @@
 }
 .desc{
     position: relative;
-    color: #757575;
+    color: var(--p-color-base);
 }
 .Info-row{
     position: relative;
@@ -55,7 +57,7 @@
 }
 .Info-label{
     font-weight: 600;
-    color: #757757;
+    color: var(--label-color);
 }
 .Info-value {
     font-weight: 400;
@@ -65,9 +67,9 @@
     height: 30px;
     border-radius: 5px;
     padding: 5px 10px;
-    border: 1px solid #ccc;
+    border: var(--input-border);
     margin-top: 5px;
     outline: none;
-    color: #626369;
+    color: var(--input-text);
     font-weight: 600;
 }
