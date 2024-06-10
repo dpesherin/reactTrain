@@ -1,10 +1,12 @@
 import "./TasksList.css"
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Table from "../../ui/Table/Table";
 import StatusMarker from "../../ui/StatusMarker/StatusMarker";
 import {Link} from "react-router-dom";
+import Pagination from "../../ui/Pagination/Pagination";
 
 function TasksList(props) {
+    const [pagData, setPagData] =  useState({page:1, limit:10, total: 100});
     const tableInfo = [
         {
             "ID": 1,
@@ -56,9 +58,19 @@ function TasksList(props) {
             "Created": "John Doe"
         }
     ]
+
+    const handlePagination = (pD) => {
+        setPagData(pD)
+        console.log(pagData)
+    }
+
     return (
-        <Table table={tableInfo} pagination={props.pagination} />
-    );
+        <div className="wrapper">
+            <Table table={tableInfo} pagination={props.pagination} onSetPagination={handlePagination} />
+            <Pagination page={pagData.page} total={pagData.total} limit={pagData.limit} onPaginationChange={handlePagination}/>
+        </div>
+
+    )
 }
 
 export default TasksList;

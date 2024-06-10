@@ -1,8 +1,9 @@
 import "./Table.css"
-import React from 'react';
+import React, {useState} from 'react';
 import TRow from "./TRow";
 import Pagination from "../Pagination/Pagination";
 function Table(props) {
+    const [pD, setPagData] =  useState({page:1, limit:10})
     const theadArr = Object.keys(props.table[0])
     const thead = theadArr.map((value,index)=>{
         return(
@@ -14,12 +15,6 @@ function Table(props) {
             <TRow key={i} row={item} />
         )
     })
-
-    let pagination = <div className="pagination"></div>;
-    if(props.pagination){
-        pagination = <Pagination/>
-    }
-
 
     return (
         <div className="table-wrapper">
@@ -33,7 +28,6 @@ function Table(props) {
                     {tbody}
                 </tbody>
             </table>
-            {pagination}
         </div>
 
     );
